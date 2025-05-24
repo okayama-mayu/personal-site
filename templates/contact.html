@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Personal Site</title>
+  <link rel="stylesheet" href="/static/style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bellefair&family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <div class="container">
+    <div class="text">
+      <h1>Let's Connect</h1>
+      <p>I'm always looking forward to meeting people. Please feel free to reach out! I do my best to check and respond to every message.</p>
+
+      <a href="https://www.linkedin.com/in/mayu-takeda/" target="_blank">LinkedIn</a>
+
+      <div class="contact-form-wrapper">
+        <form action="https://formspree.io/f/meognzbp" class="fs-form" target="_top" method="POST">
+          <h2>Contact Me</h2>
+          <div class="fs-field">
+            <label class="fs-label" for="name">Your Name</label>
+            <input class="fs-input" id="name" name="name" required />
+          </div>
+          <div class="fs-field">
+            <label class="fs-label" for="email">Email</label>
+            <input class="fs-input" id="email" name="email" required />
+            <p class="fs-description">
+              This will help me respond to your query via an email.
+            </p>
+          </div>
+          <div class="fs-field">
+            <label class="fs-label" for="message">Message</label>
+            <textarea class="fs-textarea" id="message" name="message" required></textarea>
+            <p class="fs-description">What would you like to discuss?</p>
+          </div>
+          <div class="fs-button-group">
+            <button class="fs-button" type="submit">Submit</button>
+          </div>
+        </form>
+      </div>
+
+      <a href="/">About</a>
+      <a href="/cv">CV</a>
+    </div>
+    <div class="image">
+      <img src="/static/images/connect.jpeg" alt="connect">
+    </div>
+  </div>
+
+
+</body>
+
+</html>
