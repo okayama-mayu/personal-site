@@ -43,10 +43,6 @@ p {
   font-family: 'Bellefair', serif;
 }
 
-/* ul {
-  font-size: 1.08em;
-} */
-
 .container {
   display: flex;
   align-items: flex-start;
@@ -94,6 +90,28 @@ p {
   /* removes underline */
   color: inherit;
   /* makes link same color as surrounding text */
+}
+
+.page-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: center;
+}
+
+.site-footer {
+  width: 100%;
+  padding: 1em 0;
+  margin-top: 2em;
+  font-family: 'Bellefair', serif;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.site-footer p {
+  font-size: 0.8em;
+  color: #666666;
+  margin: 0;
 }
 
 @media (max-width: 768px) {
